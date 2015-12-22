@@ -1,0 +1,7 @@
+all: palindrome_checker
+
+palindrome_checker: palindrome.cpp
+	<(1.0.0)>
+
+clean:
+	rm palindrome_checker
