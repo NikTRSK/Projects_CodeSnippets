@@ -79,7 +79,7 @@ if __name__ == "__main__":
   # Look through the list of the main page
   menu = main.find_all('a')
   # Define search terms for extraction
-  linksOfIntrest = ["Labs", "Lecture Schedule", "Assignments", "Homework"]
+  linksOfIntrest = ["Labs", "Lecture", "Schedule", "Assignments", "Homework"]
   for index in range(len(menu)):
     if any(s in menu[index].text for s in linksOfIntrest):
       # Create a folder for the category
