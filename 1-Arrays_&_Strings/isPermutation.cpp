@@ -18,4 +18,4 @@ int main(int argc, char *argv[]) {
   char substring[] = "BAC";
   bool check = permute(str, 0, n-1, substring);
   cout << std::boolalpha << check << endl;
-}
+} //
