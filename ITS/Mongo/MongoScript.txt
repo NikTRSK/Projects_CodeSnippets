@@ -1,0 +1,3 @@
+db.createCollection(<timesheets>, { capped: false,
+                              			autoIndexId: true,
+                              			storageEngine: <document> } )
